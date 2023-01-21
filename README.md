@@ -1,5 +1,9 @@
 # Ordre_execution_des_Hooks_in_Cucumber
 
+- Ordonner les Hooks à exécuter dans une séquence particulière est facile à faire
+- @Before(order = int) : Ceci s’exécute dans l’ordre incrémentiel, signifie que la valeur 0 s’exécuterait en premier et 1 serait après 0.
+- @After(order = int) : Ceci fonctionne dans l’ordre décrémentiel, signifie apposite de @Before. La valeur 1 s’exécuterait en premier et 0 après 1.
+
 ## l'architecture de notre exemple:
 ![image](https://user-images.githubusercontent.com/7100940/213881797-fb812a22-f554-41a1-bdaa-b8b90310998d.png)
 
